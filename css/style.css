@@ -1,0 +1,130 @@
+ @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/* Page 1 */
+#index {
+  background-color: #FFFFFF;
+}
+
+#headshot {
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  margin-right: 10px;
+  width: 30%;
+  min-width: 30%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Page 2 */
+#music {
+  background-image: url(../images/music_notes.jpg);
+  background-color: black;
+  background-repeat: repeat-x;
+}
+
+/* Page 3 */
+#about {  
+  background-image: url(../images/mixed_bg.png);
+  object-fit: cover;
+}
+
+.center {
+  width: 40%;
+  height: auto;
+  max-width: 40%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* -------------------------------------------------- */
+
+/* All Pages */
+#main-navbar {
+  width: 100%;
+  position: relative;
+  background-color: #8B0000;
+  overflow: hidden;
+}
+
+#main-navbar ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style-type: none;
+}
+
+#main-navbar ul li{
+  list-style-type: none;
+  display: inline-block;
+  font-family: arial;
+}
+
+#main-navbar ul li a{
+  padding: 10px 20px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  left: 50%;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #000;
+  text-decoration: underline overline;
+}
+
+#nav-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+#current {
+  text-decoration: underline overline;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Archivo Black';
+}
+
+section h2 {
+  text-align: center;
+  font-family: arial;
+}
+
+section {
+  height: 100%;
+  padding: 5px;
+}
+
+section li {
+  font-family: arial;
+}
+
+p {
+  font-family: arial;
+}
+
+#content {
+  margin-left: 16%;
+  margin-right: 16%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  background-color: #FAEBD7;
+  height: 100%;
+  min-width: 50%;
+}
+
+iframe {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+  border: 0;
+}
