@@ -47,7 +47,11 @@
   background-color: black;
 }
 
-#map {
+#map1 {
+  height: 100%;
+}
+
+#map2 {
   height: 100%;
 }
 
