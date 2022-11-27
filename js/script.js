@@ -1,36 +1,19 @@
-/*let map;
-
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 41.8665069, lng: -87.6300768 },
-    zoom: 8,
-  });
-}
-
-window.initMap = initMap;*/
-
-
-
-
-let map: google.maps.Map;
-
 function initMap(): void {
-  map1 = new google.maps.Map(document.getElementById("map1") as HTMLElement, {
-    center: { lat: 41.8665069, lng: -87.6300768 },
-    zoom: 8,
-  });
-}
+	
+};
 
-function initMap(): void {
-  map2 = new google.maps.Map(document.getElementById("map2") as HTMLElement, {
-    center: { lat: 41.6922572, lng: -87.5583785 },
-    zoom: 8,
-  });
-}
+var chicago = {
+	zoom: 8,
+	center: new google.maps.LatLng(41.6922572, -87.5583785),
+};
 
-declare global {
-  interface Window {
-    initMap: () => void;
-  }
-}
+var southDeering = {
+	zoom: 9,
+	center: new google.maps.LatLng(41.8665069, -87.6300768),
+};
+
+var map = new google.maps.Map(document.getElementById('map1'), chicago);
+var map = new google.maps.Map(document.getElementById('map2'), southDeering);
+
+
 window.initMap = initMap;
