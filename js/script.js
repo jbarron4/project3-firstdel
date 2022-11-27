@@ -8,14 +8,4 @@ function initMap() {
 	});
 }
 
-function initMap() {
-	// Location of South Deering
-	const southDeering = { lat: 41.8665069, lng: -87.6300768 }
-	// Create new South Deering map
-	const map2 = new google.maps.Map(document.getElementById("map2"), {
-		zoom: 8,
-		center: southDeering,
-	});
-}
-
 window.initMap = initMap;
