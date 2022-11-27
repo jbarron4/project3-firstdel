@@ -1,19 +1,21 @@
-function initMap(): void {
-	
-};
+function initMap() {
+	// Location of Chicago
+	const chicago = { lat: 41.6922572, lng: -87.5583785 }
+	// Create new Chicago map
+	const map1 = new google.maps.Map(document.getElementById("map1"), {
+		zoom: 4,
+		center: chicago,
+	});
+}
 
-var chicago = {
-	zoom: 8,
-	center: new google.maps.LatLng(41.6922572, -87.5583785),
-};
-
-var southDeering = {
-	zoom: 9,
-	center: new google.maps.LatLng(41.8665069, -87.6300768),
-};
-
-var map = new google.maps.Map(document.getElementById('map1'), chicago);
-var map = new google.maps.Map(document.getElementById('map2'), southDeering);
-
+function initMap() {
+	// Location of South Deering
+	const southDeering = { lat: 41.8665069, lng: -87.6300768 }
+	// Create new South Deering map
+	const map2 = new google.maps.Map(document.getElementById("map2"), {
+		zoom: 4,
+		center: southDeering,
+	});
+}
 
 window.initMap = initMap;
