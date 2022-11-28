@@ -1,4 +1,4 @@
-function initMap() {
+/*function initMap(): void {
   var chicago = { lat:41.69225, lng:-87.55837 };
   var map = new google.maps.Map(document.getElementById("map"), {
     center: chicago,
@@ -22,4 +22,12 @@ function initMap() {
   infowindow.open(map, chicago);
 
 }
-window.initMap = initMap;
+window.initMap = initMap;*/
+
+function myMap() {
+var chicago= {
+  center:new google.maps.LatLng(41.69225,-87.55837),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("map"),chicago);
+}
