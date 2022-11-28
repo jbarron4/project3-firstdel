@@ -18,7 +18,7 @@
 }
 
 /* Media Query for mobile */
-@media only screen and (device-width: 768px) {
+@media (min-width: 480px) {
   #headshot{
 	float: none;
 	width: 75%;
