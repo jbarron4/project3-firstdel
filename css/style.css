@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 /* Page 1 */
 #index {
@@ -15,6 +15,25 @@
   min-width: 30%;
   height: auto;
   margin-top: 20px;
+}
+
+/* Media Query for mobile */
+@media only screen and (max-width: 768px) {
+  #headshot{
+	float: none;
+	width: 75%;
+	height: auto;
+  }
+  #content {
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+	background-color: #FAEBD7;
+    height: 100%;
+  }
+  
 }
 
 /* Page 2 */
