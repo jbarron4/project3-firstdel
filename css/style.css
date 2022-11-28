@@ -18,7 +18,7 @@
 }
 
 /* Media Query for mobile */
-@media only screen and (max-width: 768px) {
+@media only screen and (device-width: 768px) {
   #headshot{
 	float: none;
 	width: 75%;
@@ -33,7 +33,10 @@
 	background-color: #FAEBD7;
     height: 100%;
   }
-  
+  body {
+	height: 100%;
+	width: auto;
+  }
 }
 
 /* Page 2 */
