@@ -27,7 +27,7 @@ window.initMap = initMap;*/
 function myMap() {
 var chicago= {
   center:new google.maps.LatLng(41.69225,-87.55837),
-  zoom:5,
+  zoom:8,
 };
 var map = new google.maps.Map(document.getElementById("map"),chicago);
 }
