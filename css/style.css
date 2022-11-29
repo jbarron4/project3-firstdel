@@ -19,8 +19,8 @@
 
 #right {
   float: right;
-  padding-left: .5em;
-  padding-right: .5em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /* Media Query for mobile */
@@ -38,8 +38,6 @@
     float: center;
   }
   #content {
-	margin-left: none;
-	margin-right: none;
 	background-color: #FAEBD7;
     height: 100%;
 	width: auto;

@@ -15,5 +15,3 @@ function myMap() {
   
   infoWindow.open(map, chicago);
 }
-
-window.myMap = myMap;
