@@ -34,7 +34,7 @@
     margin-right: auto;
 	float: none;
 	left: 50%;
-    width: 100%;
+    width: 30%;
   }
   #right {
 	float: none;
@@ -50,8 +50,6 @@
   #index, #music, #about, #maps {
 	height: 100%;
 	width: auto;
-	margin-left: 0;
-	margin-right: 0;
   }
 }
 
