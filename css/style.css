@@ -26,7 +26,7 @@
 /* Media Query for mobile */
 @media screen and (min-width: 600px) {
   #nav-container ul li {
-	font-size: 1.5em;
+	font-size: 1em;
   }
   #headshot{
 	display: block;
@@ -38,9 +38,6 @@
     float: center;
   }
   #content {
-	padding-left: .5em;
-    padding-right: .5em;
-    padding-top: .25em;
 	margin-left: none;
 	margin-right: none;
 	background-color: #FAEBD7;
@@ -55,8 +52,20 @@
 }
 
 /* Media Query for tablets */
-@media screen and (min-width: 600px) {
-  
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  #nav-container ul li {
+	font-size: 1.5em;
+  }
+  #headshot{
+	float: left;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  #right {
+    float: right;
+  }
 }
 
 /* Page 2 */
