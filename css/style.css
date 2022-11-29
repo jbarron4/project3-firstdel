@@ -19,6 +19,8 @@
 
 #right {
   float: right;
+  padding-left: .5em;
+  padding-right: .5em;
 }
 
 /* Media Query for mobile */
@@ -32,15 +34,18 @@
     margin-right: auto;
     width: 30%;
   }
+  #right {
+    float: center;
+  }
   .content {
-	padding-left: 8%;
-    padding-right: 8%;
+	padding-left: .5em;
+    padding-right: .5em;
     padding-top: 3px;
 	margin-left: none;
 	margin-right: none;
 	background-color: #FAEBD7;
-    height: 110%;
-	width: 90%;
+    height: 100%;
+	width: auto;
   }
   #index, #music, #about, #maps {
 	height: 100%;
