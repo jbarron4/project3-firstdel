@@ -21,8 +21,7 @@
 @media (min-width: 480px) {
   #headshot{
 	float: none;
-	left: 25%;
-	right: 25%;
+	left: 50%;
 	width: 75%;
 	height: auto;
   }
@@ -37,13 +36,13 @@
 	height: 100%;
 	width: auto;
   }
-  p {
-	font-size: 20;
-  }
   h1 {
 	font-size: 40;
   }
-  h2 {
+  section {
+	font-size: 20;
+  }
+  section h2 {
 	font-size: 28;
   }
 }
