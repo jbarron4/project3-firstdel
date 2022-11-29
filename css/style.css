@@ -18,15 +18,15 @@
 }
 
 /* Media Query for mobile */
-@media (min-width: 480px) {
+@media only screen and (max-width: 480px) {
   #nav-container ul li {
 	font-size: 20;
   }
   #headshot{
-	float: none;
-	left: 50%;
-	width: 75%;
-	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
   #content {
 	padding-left: 8px;
@@ -38,18 +38,16 @@
   #index, #music, #about, #maps {
 	height: 100%;
 	width: auto;
+	margin: 5%;
   }
   h1 {
-	font-size: 40;
+	font-size: 30px;
   }
-  section p {
-	font-size: 20;
-  }
-  section li {
-	font-size: 20;
+  section p, section li {
+	font-size: 18px;
   }
   section.heading {
-	font-size: 28;
+	font-size: 24px;
   }
 }
 
