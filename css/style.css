@@ -33,8 +33,11 @@
 	padding-left: 8px;
     padding-right: 8px;
     padding-top: 3px;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: #FAEBD7;
     height: 100%;
+	width: 90%;
   }
   #index, #music, #about, #maps {
 	height: 100%;
@@ -42,13 +45,13 @@
 	margin: 5%;
   }
   h1 {
-	font-size: 30px;
+	font-size: 36px;
   }
   section p, section li {
-	font-size: 18px;
+	font-size: 20px;
   }
   section.heading {
-	font-size: 24px;
+	font-size: 28px;
   }
 }
 
