@@ -24,7 +24,7 @@
 }
 
 /* Media Query for mobile */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   #nav-container ul li {
 	font-size: 1.5em;
   }
@@ -37,10 +37,10 @@
   #right {
     float: center;
   }
-  .content {
+  #content {
 	padding-left: .5em;
     padding-right: .5em;
-    padding-top: 3px;
+    padding-top: .25em;
 	margin-left: none;
 	margin-right: none;
 	background-color: #FAEBD7;
@@ -50,8 +50,13 @@
   #index, #music, #about, #maps {
 	height: 100%;
 	width: auto;
-	margin: 5%;
+	margin: none;
   }
+}
+
+/* Media Query for tablets */
+@media screen and (min-width: 600px) {
+  
 }
 
 /* Page 2 */
@@ -157,7 +162,7 @@ p {
   font-family: arial;
 }
 
-.content {
+#content {
   margin-left: 16%;
   margin-right: 16%;
   padding-left: 8px;
