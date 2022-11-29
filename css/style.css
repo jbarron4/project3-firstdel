@@ -18,9 +18,9 @@
 }
 
 /* Media Query for mobile */
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   #nav-container ul li {
-	font-size: 20;
+	font-size: 20px;
   }
   #headshot{
 	display: block;
