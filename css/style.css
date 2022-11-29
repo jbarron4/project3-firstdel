@@ -69,6 +69,11 @@
   #right {
     float: right;
   }
+  #index, #music, #about, #maps {
+	height: 100%;
+	width: auto;
+	margin: 0px;
+  }
 }
 
 /* Page 2 */
