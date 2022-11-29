@@ -24,7 +24,7 @@
 }
 
 /* Media Query for mobile */
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   #nav-container ul li {
 	font-size: 1em;
   }
@@ -50,7 +50,8 @@
   #index, #music, #about, #maps {
 	height: 100%;
 	width: auto;
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
   }
 }
 
