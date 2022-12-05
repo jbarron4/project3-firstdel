@@ -94,7 +94,10 @@
   background-color: black;
 }
 
-/* Map CSS Goes Here */
+#map {
+  height: 100%;
+  width: auto;
+}
 
 /* -------------------------------------------------- */
 
