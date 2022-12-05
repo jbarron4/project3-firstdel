@@ -1,6 +1,6 @@
 function initMap() {
   var chicago = { lat:41.8781, lng:-87.6298};
-  var map = new google.maps.Map(document.getElementById("map"), {
+  var map = new google.maps.Map(document.getElementById('map'), {
     center: chicago,
 	zoom: 8,
   });
@@ -12,4 +12,13 @@ function initMap() {
 	animation: google.maps.Animation.DROP
   });
 }
+
 window.initMap = initMap;
+
+
+
+/*
+function initMap() {
+	var chicago = {center: {lat: 41.86650, lng: -87.63007}, zoom: 8}
+	var map = new google.maps.Map(document.getElementById('map')
+*/
