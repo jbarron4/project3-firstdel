@@ -95,6 +95,7 @@
 }
 
 #map {
+  margin: 10px;
   height: 100%;
   width: auto;
 }
