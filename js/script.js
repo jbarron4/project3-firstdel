@@ -1,4 +1,3 @@
-// Initialize and add the map
 function initMap() {
   const chicago = { lat: 41.8781, lng: -87.6298 };
   const southDeering = { lat: 41.86650, lng: -87.63007};
