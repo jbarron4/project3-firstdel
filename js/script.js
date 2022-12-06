@@ -1,10 +1,24 @@
-let map;
+var map;
 
 function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat:41.878, lng:-87.629 },
-    zoom: 8,
-  });
-}
+	var mapOptions = {
+		zoom: 8,
+		center: new google.maps.LatLng(41.8781, -87.6298)
+	};
 
-window.initMap = initMap;
+	map = new google.maps.Map(document.getElementById('map'),
+		mapOptions);
+}
+function addMarkers() {
+	var marker1 = new google.maps.Marker({
+		position: new google.maps.LatLng(41.8781, -87.6298),
+		title:'Chicago',
+		map:map
+	});
+	
+	var marker2 = new google.maps.Marker({
+		position: new google.maps.LatLng(41.86650, -87.63007),
+		title:'South Deering',
+		map:map
+	});
+}
