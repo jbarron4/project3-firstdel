@@ -1,24 +1,22 @@
-var map;
-
+// Initialize and add the map
 function initMap() {
-	var mapOptions = {
-		zoom: 8,
-		center: new google.maps.LatLng(41.8781, -87.6298)
-	};
+  const chicago = { lat: 41.8781, lng: -87.6298 };
+  const southDeering = { lat: 41.86650, lng: -87.63007};
+  
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 8,
+    center: chicago,
+  });
+  
+  const marker = new google.maps.Marker({
+    position: chicago,
+    map: map,
+  });
+  
+  const marker = new google.maps.Marker({
+    position: southDeering,
+    map: map,
+  });
+}
 
-	map = new google.maps.Map(document.getElementById('map'),
-		mapOptions);
-}
-function addMarker() {
-	var marker1 = new google.maps.Marker({
-		position: new google.maps.LatLng(41.8781, -87.6298),
-		title:'Chicago',
-		map:map
-	});
-	
-	var marker2 = new google.maps.Marker({
-		position: new google.maps.LatLng(41.86650, -87.63007),
-		title:'South Deering',
-		map:map
-	});
-}
+window.initMap = initMap;

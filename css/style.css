@@ -95,9 +95,10 @@
 }
 
 #map {
-  margin: 10px;
-  height: 100%;
-  width: auto;
+  height: 400px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* -------------------------------------------------- */
