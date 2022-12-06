@@ -9,7 +9,7 @@ function initMap() {
 	map = new google.maps.Map(document.getElementById('map'),
 		mapOptions);
 }
-function addMarkers() {
+function addMarker() {
 	var marker1 = new google.maps.Marker({
 		position: new google.maps.LatLng(41.8781, -87.6298),
 		title:'Chicago',
